@@ -2,12 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"
+    />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Alejo's JAM stack blog"
     />
     <link rel="apple-touch-icon" href="logo192.png" />
     <!--
@@ -24,20 +30,26 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Alejo</title>
+<style>
+#background-video{
+
+width: 100%;
+float: left;
+top: 0;
+padding: none;
+position: fixed; /* optional depending on what you want to do in your app */
+z-index: -1;
+}
+</style>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+<video id="background-video" loop autoplay muted="muted">
+                <source src="oceanstorm.mp4" type="video/mp4" />
+                <source src="oceanstorm.mp4" type="video/ogg" />
+                Your browser does not support the video tag.
+            </video>
+    <noscript>Esto es una React App, no servirá ni madres si no corres JS</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
