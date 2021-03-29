@@ -9,10 +9,5 @@
               <link>"https://api.github.com/gists/59fd4efbe1d8fd217238e131866afde0"</link>
               <description>"Building this blog's RSS feed in Rust"</description>
           </item>
-          <item>
-              <title>"Why do Salesforce SQL tables end with __c?"</title>
-              <link>"https://api.github.com/gists/765559d07008d1e04258086efebd2eb0"</link>
-              <description>"Why do Salesforce SQL tables end with __c?"</description>
-          </item>
   </channel>
 </rss>
