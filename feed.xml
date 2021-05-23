@@ -5,6 +5,11 @@
           <link>https://seisvelas.github.io/</link>
           <description>Informal musings for curious spirits</description>
           <item>
+              <title>"Why does anysite.com&url=@evil.com redirect to evil.com? (works for any domain combo)"</title>
+              <link>"https://api.github.com/gists/39217c6b1845e141c5e4875da04c00e7"</link>
+              <description>"Why does anysite.com&url=@evil.com redirect to evil.com? (works for any domain combo)"</description>
+          </item>
+          <item>
               <title>"Building this blog's RSS feed in Rust"</title>
               <link>"https://api.github.com/gists/59fd4efbe1d8fd217238e131866afde0"</link>
               <description>"Building this blog's RSS feed in Rust"</description>
